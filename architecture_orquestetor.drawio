@@ -1,11 +1,20 @@
-<mxfile host="app.diagrams.net" modified="2023-09-11T03:09:07.291Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36" etag="Njm-igH4tzYaWYJLEEqT" version="21.7.4" type="github">
+<mxfile host="app.diagrams.net" modified="2023-09-11T04:21:02.401Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36" etag="94Wls1JcYI2tf9YBEgmM" version="21.7.4" type="github">
   <diagram name="Página-1" id="LiQZPyGt5zEEKXpuetun">
     <mxGraphModel dx="1434" dy="797" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
-        <mxCell id="q-fP648sZez-ciRgkKnh-1" value="VPC" style="sketch=0;outlineConnect=0;gradientColor=none;html=1;whiteSpace=wrap;fontSize=12;fontStyle=0;shape=mxgraph.aws4.group;grIcon=mxgraph.aws4.group_vpc;strokeColor=#879196;fillColor=none;verticalAlign=top;align=left;spacingLeft=30;fontColor=#879196;dashed=0;" vertex="1" parent="1">
-          <mxGeometry x="70" y="100" width="690" height="500" as="geometry" />
+        <mxCell id="q-fP648sZez-ciRgkKnh-3" value="AWS Step Functions workflow" style="points=[[0,0],[0.25,0],[0.5,0],[0.75,0],[1,0],[1,0.25],[1,0.5],[1,0.75],[1,1],[0.75,1],[0.5,1],[0.25,1],[0,1],[0,0.75],[0,0.5],[0,0.25]];outlineConnect=0;gradientColor=none;html=1;whiteSpace=wrap;fontSize=12;fontStyle=0;container=1;pointerEvents=0;collapsible=0;recursiveResize=0;shape=mxgraph.aws4.group;grIcon=mxgraph.aws4.group_aws_step_functions_workflow;strokeColor=#CD2264;fillColor=none;verticalAlign=top;align=left;spacingLeft=30;fontColor=#CD2264;dashed=0;" vertex="1" parent="1">
+          <mxGeometry x="30" y="70" width="780" height="710" as="geometry" />
+        </mxCell>
+        <mxCell id="q-fP648sZez-ciRgkKnh-6" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="q-fP648sZez-ciRgkKnh-3" source="q-fP648sZez-ciRgkKnh-4" target="q-fP648sZez-ciRgkKnh-5">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="q-fP648sZez-ciRgkKnh-4" value="Start" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="q-fP648sZez-ciRgkKnh-3">
+          <mxGeometry x="324" y="20" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="q-fP648sZez-ciRgkKnh-5" value="CreateOrder" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="q-fP648sZez-ciRgkKnh-3">
+          <mxGeometry x="324" y="120" width="120" height="30" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
